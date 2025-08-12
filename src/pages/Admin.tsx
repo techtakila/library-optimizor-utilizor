@@ -15,7 +15,7 @@ import {
   Upload
 } from 'lucide-react';
 
-// Move BooksTab outside the main component to prevent recreation
+// Move BooksTab outside the main  to prevent recreation
 const BooksTab: React.FC<{
   books: Book[];
   newBook: Partial<Book>;
